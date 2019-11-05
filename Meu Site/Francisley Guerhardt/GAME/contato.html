@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="icon" href="imagens/favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" type="text/css" href="css/estilo_contato.css">
+<title>Contatos</title>
+</head>
+<body>
+<div id="interface">
+		<header class="topo"> <!-- Cabeçalho - Topo -->
+		<img src="imagens/banner-topo.jpg" alt="Logo" title="Logo">
+		</header>
+		<nav class="menu"> <!-- Menu de Navegação -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Consoles</a>
+					<ul class="sub"><!-- sub menus--->
+						<li><a href="ps.html">PS</a></li>
+						<li><a href="xbox.html">Xbox</a></li>
+					</ul>	
+				</li>
+				<li><a href="#">Galeria</a>
+					<ul><!-- sub menus--->
+						<li><a href="foto.html">Fotos</a></li>
+						<li><a href="video.html">Videos</a></li>
+					</ul>
+				</li>
+				<li><a href="contato.html">Contatos</a></li>
+			</ul>
+		</nav>
+		<section class="banner_anime">
+			<img src="imagens/banner1.jpg" alt="Kratos" title="Kratos" id="anime1">
+			<img src="imagens/banner2.jpg" alt="Kratos" title="Kratos" id="anime2">
+		</section>
+		<form>
+		<fieldset id="usuario"> <!-- Conjunto de Campos -->
+			<legend>Identificação do Usuário</legend>
+			<p>
+				<label> Nome:</label>
+				<input type="text" name="nome" id="cnome" size="50" maxlength="45" placeholder="Nome completo" required autofocus>
+			</p>
+			<p>
+				<label> Senha:</label>
+				<input type="password" name="senha" id="csenha" size="8" maxlength="8" placeholder="8 digitos" required>
+			</p>
+			<p>
+				<label>E-mail:</label>
+				<input type="email" name="email" id="cemail" size="50" maxlength="45" placeholder="Digite seu o E-mail" required>
+			</p>
+		
+		
+		
+		<fieldset id="sexo">
+			<legend>Sexo:</legend>
+			<p>
+			<input type="radio" name="sexo" id="cmac" checked>
+			<label>Masculino</label>
+			</p>
+			<p>
+			<input type="radio" name="sexo" id="cfem">
+			<label>Feminino</label>
+			</p>
+		</fieldset>
+		<p>
+		<label>Data de Nascimento</label>
+		<input type="date" name="nasc" id="cnasc" required>
+		</p>
+		
+		</fieldset>
+		
+		<fieldset id="endereco">
+		<legend> Endereço do Usuário</legend>
+		
+		<p>
+		<label>Logradouro</label>
+		<input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="Rua, Av., Trav...">
+		</p>
+		
+		<p>
+		<label>Número</label>
+		<input type="number" name="num" id="cnum" min="0" max="9999">
+		</p>
+		
+		<p>
+		<label>Estado</label>
+			<select>
+			<optgroup label="Regiao Suldeste">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="ES">Espírito Santo</option>
+			</optgroup>	
+			<optgroup label="Regiao Sul">
+				<option value="SC">Santa Catarina</option>
+				<option value="PR">Paraná</option>
+				<option value="RS">Rio Grande do Sul</option>
+			</optgroup>	
+			</select>
+		</p>
+		
+		<p>
+		<label>Cidade:</label>
+		<input type="text" name="cid" size="40" maxlength="40" placeholder="Sua Cidade">
+		</p>
+		</fieldset>
+		
+		<fieldset id="mensagem">
+		<legend>Mensagem do Usuário</legend>
+		<p>
+		<label>Mensagem</label>
+		</p>
+		<p>
+		<textarea name="msg" id="cmsg" cols="50" rows="7" placeholder="Digite sua mensagem aqui"> </textarea>
+		</p>
+		</fieldset>
+		
+		<input class="btn" type="button" name="Enviar" value="Enviar">
+		<input class="btn" type="reset" name="Limpar" value="Limpar">
+		
+		
+		</form>
+		
+		
+		
+		
+		<footer class="rodape">
+		<p>Trabalho de conclusão de curso sem fins lucrativos</p>
+		<p>
+		<a target=_blank href="https://pt-br.facebook.com/"><img src="imagens/logo-face.png" alt="Facebook" title="Facebook"></a>
+		<a target=_blank href="https://twitter.com/login?lang=pt"><img src="imagens/logo-twitter.png" alt="Twitter" title="Twitter"></a>
+		<a target=_blank href="https://www.instagram.com/?hl=pt-br"><img src="imagens/logo-instagram.png" alt="Instagram" title="Instagram"></a>
+		</p>
+		</footer>		
+</div>
+
+
+</body>
+</html>
